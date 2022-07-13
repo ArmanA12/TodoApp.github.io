@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.completed{
+  text-decoration: line-through;
+}
+.list-group-item{
+  font-weight: 700;
+}
+i{
+  color: red;
+}
+h2{
+  font-weight: 1000;
+  color: rgb(90, 91, 92);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

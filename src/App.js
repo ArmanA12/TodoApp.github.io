@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Component/Navbar';
+import Users from './Component/Uses';
+import Todo from './Component/Todo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid  vh-100 vw-100" >
+      <div className='d-flex justify-content-center align-item-center'>
+        <Todo/>
+      </div>
     </div>
   );
 }
